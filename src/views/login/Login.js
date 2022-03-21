@@ -106,17 +106,17 @@ function Login() {
     <div>
       <div className='login'>
         <div className='login-card'>
-          <h2>Log in to your account</h2>
+          <h2>Ingresa a tu cuenta</h2>
           <label className='login-error'>{error}</label>
           <div className='login-row'>
-            <label className='login-label' htmlFor="email">Email Address</label>
+            <label className='login-label' htmlFor="email">Email</label>
             <input className='login-input' id="email" type="text" placeholder='Ingrese email' 
             value={email}
             onChange={e => setEmail(e.currentTarget.value)}></input>
           </div>
           {mostrarPassword ? 
             <div className='login-row'>
-              <label className='login-label' htmlFor="password">Password</label>
+              <label className='login-label' htmlFor="password">Contraseña</label>
               <input className='login-input' id="password" type="password" onChange={e => setPassword(e.currentTarget.value)} onKeyPress={handleKeyPress}></input>
             </div> : ''}
           {mostrarPassword === false ? <NextBtn /> : <LoginBtn />}

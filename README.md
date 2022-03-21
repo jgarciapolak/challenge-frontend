@@ -8,5 +8,7 @@ react-router
 
 axios
 
+Pasos:
+Instalar dependencias: npm install
 Iniciar el servidor: npm start
 Utiliza puerto 3000
