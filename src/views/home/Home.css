@@ -1,0 +1,41 @@
+.home-usuario-title {
+  text-align: center;
+  margin-bottom: 3vw;
+}
+.home-usuario-card {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  column-gap: 3vw;
+  background-color: #dbdddd;
+  width: fit-content;
+  padding: 1vw 4vw;
+  margin: auto;
+}
+.home-usuario-img {
+  width: 5vw;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.home-usuario-data {
+  display: block;
+  margin-bottom: 0.5vw;
+  font-size: 0.9vw;
+}
+.home-logout {
+  display: block;
+  margin: auto;
+  margin-top: 5vw;
+  font-size: 1vw;
+  border: none;
+  background-color: #5fa6f7;
+  color: #fff;
+  padding: 0.5vw 2vw;
+  cursor: pointer;
+}
+.home-error {
+  color: red;
+  display: block;
+  text-align: center;
+  font-size: 0.9vw;
+  margin-bottom: 1vw;
+}

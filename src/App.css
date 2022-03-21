@@ -1,0 +1,36 @@
+.login {
+  background-color: #d1d1d1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1vw 3vw 2vw;
+  width: 30vw;
+  text-align: center;
+}
+.login-card {
+  width: fit-content;
+  margin: auto;
+}
+.login-row {
+  margin-bottom: 1vw;
+}
+.login-label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5vw;
+  font-size: 0.9vw;
+}
+.login-input {
+  font-size: 0.9vw;
+  padding-left: 0.5vw;
+  border: none;
+  height: 1.5vw;
+  width: 100%;
+}
+.login-error {
+  color: red;
+  display: block;
+  text-align: left;
+  font-size: 0.8vw;
+}
